@@ -977,27 +977,7 @@ task.spawn(
         )
     end
 )
-StartKaitan:AddToggle({
-    Name = "Start Kaitan",
-	Value = _G.Auto_Farm_Level,
-    Callback = function(value)
-        _G.Auto_Farm_Level = value
-		_G.Double_Quest = value 
-		_G.Auto_Saber = value
-        _G.BringMonster = value
-        _G.FastAttack = value
-		_G.AutoBuyLegendarySword = value 
-		_G.Start_Kaitan = value
-		_G.AutoSuperhuman = value 
-		_G.AutoDeathStep = value 
-		_G.AutoSharkman = value 
-		_G.AutoElectricClaw = value 
-		_G.AutoDragonTalon = value
-		_G.AutoFullySuperhuman = value 
-		_G.Fast_Farm_Level = value
-        StopTween(_G.Auto_Farm_Level)
-    end
-})
+
 --------------------AutoFullSuperhuman
 task.spawn(
     function()
